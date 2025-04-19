@@ -4,22 +4,22 @@
 <h4>Health Snapshot for clockpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2025-04-19 00:00:01</td><td>last: 2025-04-19 20:00:01</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>13.22</td></tr>
+<tr><td>timestamp</td><td>first: 2025-04-19 00:00:01</td><td>last: 2025-04-19 20:10:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>13.11</td></tr>
 <tr><td>mem_percent</td><td>6.60</td><td>6.90</td><td>6.68</td></tr>
-<tr><td>mem_used_mb</td><td>414.33</td><td>442.58</td><td>423.35</td></tr>
+<tr><td>mem_used_mb</td><td>414.33</td><td>442.58</td><td>423.36</td></tr>
 <tr><td>mem_available_mb</td><td>7506.58</td><td>7534.83</td><td>7524.77</td></tr>
 <tr><td>temperature_c</td><td>30.10</td><td>34.50</td><td>32.38</td></tr>
 <tr><td>voltage_v</td><td>0.85</td><td>0.85</td><td>0.85</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.32</td><td>1.48</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.86</td><td>1.35</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.32</td><td>1.47</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.86</td><td>1.34</td></tr>
 <tr><td>disk_percent</td><td>24.20</td><td>24.60</td><td>24.53</td></tr>
 <tr><td>disk_free_gb</td><td>20.38</td><td>20.49</td><td>20.40</td></tr>
 <tr><td>cpu_freq_mhz</td><td>2400.00</td><td>2400.00</td><td>2400.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 121</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 121</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>PPS</td><td>kPPS</td><td>121 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 122</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 122</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>PPS</td><td>kPPS</td><td>122 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>-0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.00</td><td>0.01</td><td>0.00</td></tr>
@@ -27,11 +27,11 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-3.85e-07</td><td>5.05e-07</td><td>-3.97521e-09</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>2.8e-08</td><td>2.42e-07</td><td>1.17331e-07</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0</td><td>0.014</td><td>0.00324793</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-3.85e-07</td><td>5.05e-07</td><td>-3.70492e-09</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>2.8e-08</td><td>2.42e-07</td><td>1.1768e-07</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0</td><td>0.014</td><td>0.0032377</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: PPS : 70, kPPS : 51</p>
+<p><b>Clock Source Usage</b>: PPS : 70, kPPS : 52</p>
 <p>No backup_recordings log found for <b>clockpi</b> on 2025-04-19.</p>
 <h2>Analytics Pi</h2>
 <h4>Health Snapshot for analyticspi</h4>
@@ -5322,6 +5322,253 @@
 <li>2025-04-19 20:00:51 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
 <li>2025-04-19 20:01:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
 <li>2025-04-19 20:01:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:01:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_192000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:01:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_192000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:01:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_225000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_225000_0018.wav'</li>
+<li>2025-04-19 20:01:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_225000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_225000_0018.wav'</li>
+<li>2025-04-19 20:01:19 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_164524_0017.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_164524_0017.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-19 20:01:19 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_164524_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_233000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_233000_0017.wav'</li>
+<li>2025-04-19 20:01:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_062000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:01:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_223000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_223000_0017.wav'</li>
+<li>2025-04-19 20:01:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_062000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:01:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_223000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_223000_0017.wav'</li>
+<li>2025-04-19 20:01:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_214000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_214000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:36 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav'</li>
+<li>2025-04-19 20:01:36 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:01:59 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:01:59 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:02:21 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_182000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:02:21 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_182000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:02:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav'</li>
+<li>2025-04-19 20:02:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav'</li>
+<li>2025-04-19 20:02:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_083000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:02:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_052000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_052000_0018.wav'</li>
+<li>2025-04-19 20:02:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_034000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:02:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav'</li>
+<li>2025-04-19 20:02:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_132000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:05 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav'</li>
+<li>2025-04-19 20:02:49 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_225000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:05 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_205000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_205000_0018.wav'</li>
+<li>2025-04-19 20:02:49 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_225000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:05 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_205000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_205000_0018.wav'</li>
+<li>2025-04-19 20:03:06 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-19 20:03:06 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_170000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:03:06 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_140000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_140000_0018.wav'</li>
+<li>2025-04-19 20:03:11 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_055000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:11 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_055000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_182000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_182000_0018.wav'</li>
+<li>2025-04-19 20:03:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_182000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_182000_0018.wav'</li>
+<li>2025-04-19 20:03:27 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_013000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:03:27 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav'</li>
+<li>2025-04-19 20:03:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:03:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:03:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:03:34 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_201000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:03:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav'</li>
+<li>2025-04-19 20:03:51 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_090000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:03:58 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_145000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_145000_0019.wav'</li>
+<li>2025-04-19 20:03:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_054000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:03:58 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_234000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_234000_0017.wav'</li>
+<li>2025-04-19 20:04:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_234000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_234000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:00 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav'</li>
+<li>2025-04-19 20:04:00 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav'</li>
+<li>2025-04-19 20:04:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_234000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:00 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav'</li>
+<li>2025-04-19 20:04:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_234000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:00 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_215000_0018.wav'</li>
+<li>2025-04-19 20:04:21 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_223000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:04:21 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_034000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_034000_0018.wav'</li>
+<li>2025-04-19 20:04:21 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_223000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:04:21 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_034000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_034000_0018.wav'</li>
+<li>2025-04-19 20:04:35 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_214000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:04:35 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav'</li>
+<li>2025-04-19 20:04:40 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_203000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:04:40 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_203000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:04:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav'</li>
+<li>2025-04-19 20:04:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:04:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_122000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:04:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_034000_0019.wav'</li>
+<li>2025-04-19 20:05:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_135000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:05:26 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav'</li>
+<li>2025-04-19 20:05:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_135000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:05:26 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav'</li>
+<li>2025-04-19 20:05:25 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_052000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:05:26 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_133000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_133000_0018.wav'</li>
+<li>2025-04-19 20:05:34 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_205000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:05:34 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_205000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:05:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_120000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_120000_0019.wav'</li>
+<li>2025-04-19 20:05:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_120000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_120000_0019.wav'</li>
+<li>2025-04-19 20:05:38 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_233000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:05:38 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_195000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_195000_0017.wav'</li>
+<li>2025-04-19 20:06:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_120000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_165000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_165000_0018.wav'</li>
+<li>2025-04-19 20:06:10 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_182000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav'</li>
+<li>2025-04-19 20:06:10 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_182000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_135000_0018.wav'</li>
+<li>2025-04-19 20:06:11 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_140000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_125000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_125000_0018.wav'</li>
+<li>2025-04-19 20:06:23 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_234000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_132000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_132000_0018.wav'</li>
+<li>2025-04-19 20:06:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:06:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:06:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:06:30 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_013000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav'</li>
+<li>2025-04-19 20:06:33 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_093000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_082000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_082000_0018.wav'</li>
+<li>2025-04-19 20:06:33 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_093000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:06:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_082000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_082000_0018.wav'</li>
+<li>2025-04-19 20:07:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_215000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_215000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_215000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav'</li>
+<li>2025-04-19 20:07:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav'</li>
+<li>2025-04-19 20:07:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav'</li>
+<li>2025-04-19 20:07:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_215000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_233000_0018.wav'</li>
+<li>2025-04-19 20:07:02 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_145000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_014000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_014000_0019.wav'</li>
+<li>2025-04-19 20:07:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_034000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_034000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:07:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav'</li>
+<li>2025-04-19 20:07:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_214000_0017.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:37 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_034000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:07:37 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_190000_0018.wav'</li>
+<li>2025-04-19 20:07:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_203000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:07:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_051000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_051000_0019.wav'</li>
+<li>2025-04-19 20:08:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_133000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:15 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_212000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_212000_0018.wav'</li>
+<li>2025-04-19 20:08:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_125000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:15 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_002000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_002000_0018.wav'</li>
+<li>2025-04-19 20:08:16 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_025000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:16 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_201000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_201000_0017.wav'</li>
+<li>2025-04-19 20:08:16 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_025000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:16 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_201000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_201000_0017.wav'</li>
+<li>2025-04-19 20:08:23 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_120000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:08:23 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_120000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:08:42 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_193000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_193000_0018.wav'</li>
+<li>2025-04-19 20:08:32 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_165000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:42 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_193000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_193000_0018.wav'</li>
+<li>2025-04-19 20:08:42 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_172000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_172000_0018.wav'</li>
+<li>2025-04-19 20:08:52 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_132000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav'</li>
+<li>2025-04-19 20:08:52 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_170000_0017.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-19 20:08:52 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_170000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_140000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_140000_0018.wav'</li>
+<li>2025-04-19 20:09:09 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_135000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:09 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_135000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:09 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav'</li>
+<li>2025-04-19 20:09:09 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_025000_0018.wav'</li>
+<li>2025-04-19 20:09:16 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_120000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_041000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_041000_0019.wav'</li>
+<li>2025-04-19 20:09:18 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_082000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_055000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_055000_0018.wav'</li>
+<li>2025-04-19 20:09:18 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_082000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_055000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_055000_0018.wav'</li>
+<li>2025-04-19 20:09:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_195000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_122000_0018.wav'</li>
+<li>2025-04-19 20:09:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_214000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav'</li>
+<li>2025-04-19 20:09:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_214000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_203000_0017.wav'</li>
+<li>2025-04-19 20:09:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:09:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:09:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:40 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:09:49 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_002000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_061000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_061000_0019.wav'</li>
+<li>2025-04-19 20:09:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_233000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav'</li>
+<li>2025-04-19 20:09:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_233000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav'</li>
+<li>2025-04-19 20:09:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_233000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav'</li>
+<li>2025-04-19 20:09:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_233000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_042000_0019.wav'</li>
+<li>2025-04-19 20:09:53 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_014000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:09:56 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_054000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_054000_0019.wav'</li>
+<li>2025-04-19 20:10:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_193000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_193000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:16 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_222000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_222000_0018.wav'</li>
+<li>2025-04-19 20:10:16 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_222000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_222000_0018.wav'</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_190000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:10:34 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_234000_0018.wav'</li>
+<li>2025-04-19 20:10:39 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_051000_0019.wav, missing hash.</li>
+<li>2025-04-19 20:11:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_093000_0018.wav'</li>
+<li>2025-04-19 20:11:05 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_212000_0018.wav, missing hash.</li>
+<li>2025-04-19 20:11:05 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_192000_0017.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250417_192000_0017.wav'</li>
+<li>2025-04-19 20:11:12 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_201000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:11:12 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250417_201000_0017.wav, missing hash.</li>
+<li>2025-04-19 20:11:12 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_120000_0018.wav'</li>
+<li>2025-04-19 20:11:12 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav'</li>
 </ul>
 <h4>Successfully Synced Files (202 total)</h4><ol>
 <li>zoom_f8_pro_20250417_164524_0017.wav</li>
@@ -5528,7 +5775,7 @@
 <li>zoom_f8_pro_20250417_180000_0017.wav</li>
 </ol>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 121<br>Mount Fail count: 121</p>
+<p>Mount OK count: 122<br>Mount Fail count: 122</p>
 <ul>
 <li>2025-04-19 00:00:01 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-19 00:10:07 - ❌ NAS mount missing. Attempting to remount...</li>
@@ -5651,27 +5898,28 @@
 <li>2025-04-19 19:40:18 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-19 19:50:41 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-19 20:00:25 - ❌ NAS mount missing. Attempting to remount...</li>
+<li>2025-04-19 20:10:34 - ❌ NAS mount missing. Attempting to remount...</li>
 </ul>
 <h2>Recording Pi</h2>
 <h4>Health Snapshot for recordingpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2025-04-19 00:00:02</td><td>last: 2025-04-19 20:00:08</td><td>N/A</td></tr>
+<tr><td>timestamp</td><td>first: 2025-04-19 00:00:02</td><td>last: 2025-04-19 20:10:14</td><td>N/A</td></tr>
 <tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>22.50</td></tr>
-<tr><td>mem_percent</td><td>4.60</td><td>10.00</td><td>6.77</td></tr>
-<tr><td>mem_used_mb</td><td>259.55</td><td>512.58</td><td>332.61</td></tr>
-<tr><td>mem_available_mb</td><td>7256.81</td><td>7689.36</td><td>7517.58</td></tr>
-<tr><td>temperature_c</td><td>33.40</td><td>42.80</td><td>35.99</td></tr>
+<tr><td>mem_percent</td><td>4.60</td><td>10.00</td><td>6.78</td></tr>
+<tr><td>mem_used_mb</td><td>259.55</td><td>512.58</td><td>333.24</td></tr>
+<tr><td>mem_available_mb</td><td>7256.81</td><td>7689.36</td><td>7516.89</td></tr>
+<tr><td>temperature_c</td><td>33.40</td><td>42.80</td><td>36.03</td></tr>
 <tr><td>voltage_v</td><td>0.72</td><td>0.89</td><td>0.83</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>98684.98</td><td>9012.83</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>567.87</td><td>50.13</td></tr>
-<tr><td>disk_percent</td><td>48.90</td><td>72.00</td><td>60.42</td></tr>
-<tr><td>disk_free_gb</td><td>124.99</td><td>227.88</td><td>176.40</td></tr>
-<tr><td>cpu_freq_mhz</td><td>1500.00</td><td>2400.00</td><td>2268.60</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>98684.98</td><td>8942.92</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>567.87</td><td>49.75</td></tr>
+<tr><td>disk_percent</td><td>48.90</td><td>72.10</td><td>60.51</td></tr>
+<tr><td>disk_free_gb</td><td>124.13</td><td>227.88</td><td>175.97</td></tr>
+<tr><td>cpu_freq_mhz</td><td>1500.00</td><td>2400.00</td><td>2269.67</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 121</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 121</td><td>False: 0</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>192.168.1.140</td><td>192.168.1.140</td><td>121 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 122</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 122</td><td>False: 0</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>192.168.1.140</td><td>192.168.1.140</td><td>122 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.00</td><td>0.96</td><td>0.04</td></tr>
@@ -5679,13 +5927,13 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-8.4151e-05</td><td>8.7736e-05</td><td>7.94273e-06</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>2.926e-06</td><td>0.000199415</td><td>2.88758e-05</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.004</td><td>0.959</td><td>0.0432149</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-8.4151e-05</td><td>8.7736e-05</td><td>7.88235e-06</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>2.926e-06</td><td>0.000199415</td><td>2.86734e-05</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.004</td><td>0.959</td><td>0.0433197</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: 192.168.1.140 : 121</p>
+<p><b>Clock Source Usage</b>: 192.168.1.140 : 122</p>
 <p>No backup errors or warnings found.</p>
-<h4>Successfully Synced Files (120 total)</h4><ol>
+<h4>Successfully Synced Files (121 total)</h4><ol>
 <li>zoom_f8_pro_20250418_233000_0018.wav</li>
 <li>zoom_f8_pro_20250418_234000_0018.wav</li>
 <li>zoom_f8_pro_20250418_235000_0018.wav</li>
@@ -5806,5 +6054,6 @@
 <li>zoom_f8_pro_20250419_190000_0019.wav</li>
 <li>zoom_f8_pro_20250419_191000_0019.wav</li>
 <li>zoom_f8_pro_20250419_192000_0019.wav</li>
+<li>zoom_f8_pro_20250419_193000_0019.wav</li>
 </ol>
 </body></html>
