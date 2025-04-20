@@ -37,22 +37,22 @@
 <h4>Health Snapshot for analyticspi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2025-04-20 00:00:47</td><td>last: 2025-04-20 23:00:25</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>42.09</td></tr>
+<tr><td>timestamp</td><td>first: 2025-04-20 00:00:47</td><td>last: 2025-04-20 23:10:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>42.50</td></tr>
 <tr><td>mem_percent</td><td>36.10</td><td>41.90</td><td>39.42</td></tr>
-<tr><td>mem_used_mb</td><td>2448.38</td><td>2877.50</td><td>2712.59</td></tr>
-<tr><td>mem_available_mb</td><td>4678.78</td><td>5150.22</td><td>4882.24</td></tr>
+<tr><td>mem_used_mb</td><td>2448.38</td><td>2877.50</td><td>2712.63</td></tr>
+<tr><td>mem_available_mb</td><td>4678.78</td><td>5150.22</td><td>4882.11</td></tr>
 <tr><td>temperature_c</td><td>31.20</td><td>35.60</td><td>33.29</td></tr>
 <tr><td>voltage_v</td><td>0.72</td><td>0.85</td><td>0.83</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.89</td><td>87.39</td><td>18.87</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>1.85</td><td>9160.25</td><td>1281.64</td></tr>
-<tr><td>disk_percent</td><td>77.00</td><td>100.00</td><td>89.76</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.89</td><td>87.39</td><td>18.93</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>1.85</td><td>9160.25</td><td>1299.81</td></tr>
+<tr><td>disk_percent</td><td>77.00</td><td>100.00</td><td>89.75</td></tr>
 <tr><td>disk_free_gb</td><td>0.01</td><td>12.63</td><td>5.64</td></tr>
-<tr><td>cpu_freq_mhz</td><td>1500.00</td><td>2400.00</td><td>2349.64</td></tr>
+<tr><td>cpu_freq_mhz</td><td>1500.00</td><td>2400.00</td><td>2350.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 139</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 139</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>192.168.1.140</td><td>192.168.1.140</td><td>139 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 140</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 140</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>192.168.1.140</td><td>192.168.1.140</td><td>140 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.01</td><td>0.38</td><td>0.08</td></tr>
@@ -60,11 +60,11 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-1.9822e-05</td><td>2.1457e-05</td><td>7.69942e-07</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>2.499e-06</td><td>1.1428e-05</td><td>5.4494e-06</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.007</td><td>0.383</td><td>0.0798417</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-1.9822e-05</td><td>2.1457e-05</td><td>6.96279e-07</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>2.499e-06</td><td>1.1428e-05</td><td>5.47741e-06</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.007</td><td>0.383</td><td>0.08035</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: 192.168.1.140 : 139</p>
+<p><b>Clock Source Usage</b>: 192.168.1.140 : 140</p>
 <h4>Backup Errors/Warnings</h4><ul>
 <li>2025-04-20 02:56:16 [WARNING] rsync returned non-zero exit code: 11</li>
 <li>2025-04-20 02:56:16 [WARNING] rsync stdout:</li>
@@ -4156,6 +4156,137 @@
 <li>2025-04-20 23:00:49 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_053000_0019.wav, missing hash.</li>
 <li>2025-04-20 23:00:49 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav'</li>
 <li>2025-04-20 23:00:49 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav'</li>
+<li>2025-04-20 23:01:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_231000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:01:01 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_231000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:01:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_225000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_225000_0019.wav'</li>
+<li>2025-04-20 23:01:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_225000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_225000_0019.wav'</li>
+<li>2025-04-20 23:01:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_192000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:01:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_192000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:01:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav'</li>
+<li>2025-04-20 23:01:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav'</li>
+<li>2025-04-20 23:01:28 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:01:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_194000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:01:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav'</li>
+<li>2025-04-20 23:01:28 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_194000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:01:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_194000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:01:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav'</li>
+<li>2025-04-20 23:01:29 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:01:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_092000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:01:29 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_093000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_093000_0019.wav'</li>
+<li>2025-04-20 23:01:29 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_092000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:01:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_092000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:01:29 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_093000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_093000_0019.wav'</li>
+<li>2025-04-20 23:02:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_030000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:02:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_030000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav'</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav'</li>
+<li>2025-04-20 23:02:17 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:02:17 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_195000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav'</li>
+<li>2025-04-20 23:02:17 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_195000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:02:17 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_195000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav'</li>
+<li>2025-04-20 23:02:17 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:02:17 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_032000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_221000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_221000_0018.wav'</li>
+<li>2025-04-20 23:02:17 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_032000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:02:17 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_032000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:02:17 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_221000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_221000_0018.wav'</li>
+<li>2025-04-20 23:02:19 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_115000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:02:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav'</li>
+<li>2025-04-20 23:02:19 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:02:19 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_111000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:02:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_053000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_053000_0019.wav'</li>
+<li>2025-04-20 23:03:02 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_070000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:03:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_161000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_161000_0019.wav'</li>
+<li>2025-04-20 23:03:45 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_071000_0020.wav, missing hash.</li>
+<li>2025-04-20 23:03:45 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_071000_0020.wav, missing hash.</li>
+<li>2025-04-20 23:03:45 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_084000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_084000_0020.wav'</li>
+<li>2025-04-20 23:03:45 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_084000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_084000_0020.wav'</li>
+<li>2025-04-20 23:03:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_074000_0020.wav, missing hash.</li>
+<li>2025-04-20 23:03:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_134000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_134000_0018.wav'</li>
+<li>2025-04-20 23:03:47 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_134000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_134000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:03:47 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_134000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:03:47 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_174000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_174000_0018.wav'</li>
+<li>2025-04-20 23:03:47 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_174000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_174000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:03:47 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_174000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:03:47 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_153000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_153000_0019.wav'</li>
+<li>2025-04-20 23:03:55 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_204000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:04:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_094000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_094000_0019.wav'</li>
+<li>2025-04-20 23:04:27 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_220000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:04:27 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_073000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_073000_0018.wav'</li>
+<li>2025-04-20 23:04:27 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_073000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_073000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:04:27 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_073000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:04:27 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_172000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_172000_0019.wav'</li>
+<li>2025-04-20 23:05:29 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_105000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:05:29 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_201000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_201000_0019.wav'</li>
+<li>2025-04-20 23:07:05 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_145000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:07:12 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_014000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_014000_0019.wav'</li>
+<li>2025-04-20 23:08:04 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_115000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:05 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav'</li>
+<li>2025-04-20 23:08:06 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_111000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_111000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_053000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_053000_0019.wav'</li>
+<li>2025-04-20 23:08:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_183000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav'</li>
+<li>2025-04-20 23:08:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_183000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav'</li>
+<li>2025-04-20 23:08:22 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_102000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav'</li>
+<li>2025-04-20 23:08:22 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_102000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_102000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav'</li>
+<li>2025-04-20 23:08:22 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_130000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav'</li>
+<li>2025-04-20 23:08:22 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_130000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:22 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_130000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:22 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav'</li>
+<li>2025-04-20 23:08:23 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:23 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_044000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:23 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_002000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_002000_0020.wav'</li>
+<li>2025-04-20 23:08:23 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_044000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:23 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_044000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:23 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_002000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_002000_0020.wav'</li>
+<li>2025-04-20 23:08:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_225000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav'</li>
+<li>2025-04-20 23:08:24 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_225000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_013000_0019.wav'</li>
+<li>2025-04-20 23:08:32 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_093000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav'</li>
+<li>2025-04-20 23:08:32 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_093000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav'</li>
+<li>2025-04-20 23:08:52 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:52 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_175000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_121000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_121000_0019.wav'</li>
+<li>2025-04-20 23:08:52 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_175000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:08:52 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_175000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:08:52 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_121000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_121000_0019.wav'</li>
+<li>2025-04-20 23:09:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_221000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav'</li>
+<li>2025-04-20 23:09:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_221000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav'</li>
+<li>2025-04-20 23:09:14 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_163000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav'</li>
+<li>2025-04-20 23:09:14 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_163000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_163000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav'</li>
+<li>2025-04-20 23:09:14 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:14 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_112000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_112000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_112000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav'</li>
+<li>2025-04-20 23:09:14 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav'</li>
+<li>2025-04-20 23:09:15 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_081000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:15 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_115000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_115000_0019.wav'</li>
+<li>2025-04-20 23:09:15 [WARNING] Failed to get remote sha256 for /home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav on 192.168.1.79: Command '['ssh', 'recordingpi@192.168.1.79', 'sha256sum "/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250418_081000_0018.wav"']' returned non-zero exit status 1.</li>
+<li>2025-04-20 23:09:15 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250418_081000_0018.wav, missing hash.</li>
+<li>2025-04-20 23:09:15 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_115000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_115000_0019.wav'</li>
+<li>2025-04-20 23:09:36 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_053000_0019.wav, missing hash.</li>
+<li>2025-04-20 23:09:36 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_183000_0019.wav'</li>
 </ul>
 <h4>Successfully Synced Files (26 total)</h4><ol>
 <li>zoom_f8_pro_20250417_233000_0017.wav</li>
@@ -4186,7 +4317,7 @@
 <li>zoom_f8_pro_20250418_050000_0018.wav</li>
 </ol>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 139<br>Mount Fail count: 139</p>
+<p>Mount OK count: 140<br>Mount Fail count: 140</p>
 <ul>
 <li>2025-04-20 00:00:47 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-20 00:10:01 - ❌ NAS mount missing. Attempting to remount...</li>
@@ -4327,6 +4458,7 @@
 <li>2025-04-20 22:40:23 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-20 22:50:39 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-20 23:00:25 - ❌ NAS mount missing. Attempting to remount...</li>
+<li>2025-04-20 23:10:02 - ❌ NAS mount missing. Attempting to remount...</li>
 </ul>
 <h2>Recording Pi</h2>
 <h4>Health Snapshot for recordingpi</h4>
@@ -4366,7 +4498,7 @@
 <li>2025-04-20 00:24:57 [WARNING] rsync stderr:</li>
 <li>2025-04-20 00:24:58 [ERROR] Error checking or trimming local directory size: [Errno 2] No such file or directory: '/home/recordingpi/akulab_2025/audio_final_test/zoom_f8_pro_20250417_224000_0017.wav'</li>
 </ul>
-<h4>Successfully Synced Files (146 total)</h4><ol>
+<h4>Successfully Synced Files (148 total)</h4><ol>
 <li>zoom_f8_pro_20250419_233000_0019.wav</li>
 <li>zoom_f8_pro_20250419_234000_0019.wav</li>
 <li>zoom_f8_pro_20250419_235000_0019.wav</li>
@@ -4513,5 +4645,7 @@
 <li>zoom_f8_pro_20250420_220000_0020.wav</li>
 <li>zoom_f8_pro_20250420_220000_0020.wav</li>
 <li>zoom_f8_pro_20250420_221000_0020.wav</li>
+<li>zoom_f8_pro_20250420_221000_0020.wav</li>
+<li>zoom_f8_pro_20250420_222000_0020.wav</li>
 </ol>
 </body></html>
