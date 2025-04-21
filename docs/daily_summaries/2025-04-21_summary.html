@@ -4,22 +4,22 @@
 <h4>Health Snapshot for clockpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2025-04-21 00:00:01</td><td>last: 2025-04-21 07:20:02</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>66.70</td><td>9.26</td></tr>
+<tr><td>timestamp</td><td>first: 2025-04-21 00:00:01</td><td>last: 2025-04-21 07:30:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>66.70</td><td>9.06</td></tr>
 <tr><td>mem_percent</td><td>6.60</td><td>7.00</td><td>6.71</td></tr>
-<tr><td>mem_used_mb</td><td>417.09</td><td>450.94</td><td>424.77</td></tr>
-<tr><td>mem_available_mb</td><td>7496.22</td><td>7529.95</td><td>7522.34</td></tr>
-<tr><td>temperature_c</td><td>30.70</td><td>34.00</td><td>31.59</td></tr>
+<tr><td>mem_used_mb</td><td>417.09</td><td>450.94</td><td>424.86</td></tr>
+<tr><td>mem_available_mb</td><td>7496.22</td><td>7529.95</td><td>7522.25</td></tr>
+<tr><td>temperature_c</td><td>30.70</td><td>34.00</td><td>31.58</td></tr>
 <tr><td>voltage_v</td><td>0.85</td><td>0.85</td><td>0.85</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.35</td><td>2.29</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.85</td><td>2.14</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.35</td><td>2.25</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.85</td><td>2.10</td></tr>
 <tr><td>disk_percent</td><td>24.80</td><td>24.80</td><td>24.80</td></tr>
 <tr><td>disk_free_gb</td><td>20.33</td><td>20.34</td><td>20.33</td></tr>
 <tr><td>cpu_freq_mhz</td><td>2400.00</td><td>2400.00</td><td>2400.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 45</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 45</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>kPPS</td><td>PPS</td><td>45 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 46</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 46</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>kPPS</td><td>PPS</td><td>46 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.00</td><td>0.13</td><td>0.02</td></tr>
@@ -27,11 +27,11 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-1.345e-06</td><td>3.445e-06</td><td>1.24733e-07</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>5.6e-08</td><td>1.566e-06</td><td>3.05711e-07</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.132</td><td>0.0164</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-1.345e-06</td><td>3.445e-06</td><td>1.18174e-07</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>5.6e-08</td><td>1.566e-06</td><td>3.03543e-07</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.132</td><td>0.0161739</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: PPS : 34, kPPS : 11</p>
+<p><b>Clock Source Usage</b>: PPS : 35, kPPS : 11</p>
 <p>No backup_recordings log found for <b>clockpi</b> on 2025-04-21.</p>
 <h2>Analytics Pi</h2>
 <h4>Health Snapshot for analyticspi</h4>
@@ -329,6 +329,22 @@
 <li>2025-04-21 07:17:11 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_064000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_064000_0020.wav'</li>
 <li>2025-04-21 07:21:32 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_042000_0020.wav, missing hash.</li>
 <li>2025-04-21 07:21:32 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_113000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_113000_0019.wav'</li>
+<li>2025-04-21 07:23:00 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_134000_0019.wav, missing hash.</li>
+<li>2025-04-21 07:23:00 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_132000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_132000_0019.wav'</li>
+<li>2025-04-21 07:24:19 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_215000_0020.wav, missing hash.</li>
+<li>2025-04-21 07:24:19 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_112000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_112000_0019.wav'</li>
+<li>2025-04-21 07:25:34 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_190000_0019.wav, missing hash.</li>
+<li>2025-04-21 07:25:39 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_164000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_164000_0020.wav'</li>
+<li>2025-04-21 07:25:34 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_190000_0019.wav, missing hash.</li>
+<li>2025-04-21 07:25:39 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_164000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_164000_0020.wav'</li>
+<li>2025-04-21 07:26:03 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_091000_0020.wav, missing hash.</li>
+<li>2025-04-21 07:26:03 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_064000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_064000_0020.wav'</li>
+<li>2025-04-21 07:26:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_064000_0020.wav, missing hash.</li>
+<li>2025-04-21 07:26:28 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_064000_0020.wav, missing hash.</li>
+<li>2025-04-21 07:26:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_190000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_190000_0019.wav'</li>
+<li>2025-04-21 07:26:28 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_190000_0019.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250419_190000_0019.wav'</li>
+<li>2025-04-21 07:29:46 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250419_113000_0019.wav, missing hash.</li>
+<li>2025-04-21 07:29:46 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_215000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_215000_0020.wav'</li>
 </ul>
 <h4>Successfully Synced Files (7 total)</h4><ol>
 <li>zoom_f8_pro_20250418_225000_0018.wav</li>
@@ -340,7 +356,7 @@
 <li>zoom_f8_pro_20250419_032000_0019.wav</li>
 </ol>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 45<br>Mount Fail count: 45</p>
+<p>Mount OK count: 46<br>Mount Fail count: 46</p>
 <ul>
 <li>2025-04-21 00:00:28 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-21 00:10:05 - ❌ NAS mount missing. Attempting to remount...</li>
@@ -387,6 +403,7 @@
 <li>2025-04-21 07:00:30 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-21 07:10:11 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-21 07:20:11 - ❌ NAS mount missing. Attempting to remount...</li>
+<li>2025-04-21 07:30:10 - ❌ NAS mount missing. Attempting to remount...</li>
 </ul>
 <h2>Recording Pi</h2>
 <h4>Health Snapshot for recordingpi</h4>
@@ -421,7 +438,7 @@
 </table>
 <p><b>Clock Source Usage</b>: 192.168.1.140 : 45</p>
 <p>No backup errors or warnings found.</p>
-<h4>Successfully Synced Files (121 total)</h4><ol>
+<h4>Successfully Synced Files (125 total)</h4><ol>
 <li>zoom_f8_pro_20250420_233008_0020.wav</li>
 <li>zoom_f8_pro_20250420_234000_0020.wav</li>
 <li>zoom_f8_pro_20250420_234000_0020.wav</li>
@@ -474,77 +491,6 @@
 <li>zoom_f8_pro_20250421_031328_0021.wav</li>
 <li>zoom_f8_pro_20250421_025000_0021.wav</li>
 <li>zoom_f8_pro_20250421_030000_0021.wav</li>
-<li>zoom_f8_pro_20250421_031328_0021.wav</li>
-<li>zoom_f8_pro_20250421_032000_0021.wav</li>
-<li>zoom_f8_pro_20250421_030000_0021.wav</li>
-<li>zoom_f8_pro_20250421_031328_0021.wav</li>
-<li>zoom_f8_pro_20250421_032000_0021.wav</li>
-<li>zoom_f8_pro_20250421_033000_0021.wav</li>
-<li>zoom_f8_pro_20250421_032000_0021.wav</li>
-<li>zoom_f8_pro_20250421_033000_0021.wav</li>
-<li>zoom_f8_pro_20250421_034000_0021.wav</li>
-<li>zoom_f8_pro_20250421_032000_0021.wav</li>
-<li>zoom_f8_pro_20250421_033000_0021.wav</li>
-<li>zoom_f8_pro_20250421_034000_0021.wav</li>
-<li>zoom_f8_pro_20250421_035000_0021.wav</li>
-<li>zoom_f8_pro_20250421_033000_0021.wav</li>
-<li>zoom_f8_pro_20250421_034000_0021.wav</li>
-<li>zoom_f8_pro_20250421_035000_0021.wav</li>
-<li>zoom_f8_pro_20250421_040000_0021.wav</li>
-<li>zoom_f8_pro_20250421_034000_0021.wav</li>
-<li>zoom_f8_pro_20250421_035000_0021.wav</li>
-<li>zoom_f8_pro_20250421_040000_0021.wav</li>
-<li>zoom_f8_pro_20250421_041000_0021.wav</li>
-<li>zoom_f8_pro_20250421_035000_0021.wav</li>
-<li>zoom_f8_pro_20250421_040000_0021.wav</li>
-<li>zoom_f8_pro_20250421_041000_0021.wav</li>
-<li>zoom_f8_pro_20250421_042000_0021.wav</li>
-<li>zoom_f8_pro_20250421_040000_0021.wav</li>
-<li>zoom_f8_pro_20250421_041000_0021.wav</li>
-<li>zoom_f8_pro_20250421_042000_0021.wav</li>
-<li>zoom_f8_pro_20250421_043000_0021.wav</li>
-<li>zoom_f8_pro_20250421_041000_0021.wav</li>
-<li>zoom_f8_pro_20250421_042000_0021.wav</li>
-<li>zoom_f8_pro_20250421_043000_0021.wav</li>
-<li>zoom_f8_pro_20250421_044000_0021.wav</li>
-<li>zoom_f8_pro_20250421_042000_0021.wav</li>
-<li>zoom_f8_pro_20250421_043000_0021.wav</li>
-<li>zoom_f8_pro_20250421_044000_0021.wav</li>
-<li>zoom_f8_pro_20250421_045000_0021.wav</li>
-<li>zoom_f8_pro_20250421_043000_0021.wav</li>
-<li>zoom_f8_pro_20250421_044000_0021.wav</li>
-<li>zoom_f8_pro_20250421_045000_0021.wav</li>
-<li>zoom_f8_pro_20250421_050000_0021.wav</li>
-<li>zoom_f8_pro_20250421_044000_0021.wav</li>
-<li>zoom_f8_pro_20250421_045000_0021.wav</li>
-<li>zoom_f8_pro_20250421_050000_0021.wav</li>
-<li>zoom_f8_pro_20250421_051000_0021.wav</li>
-<li>zoom_f8_pro_20250421_045000_0021.wav</li>
-<li>zoom_f8_pro_20250421_050000_0021.wav</li>
-<li>zoom_f8_pro_20250421_051000_0021.wav</li>
-<li>zoom_f8_pro_20250421_052000_0021.wav</li>
-<li>zoom_f8_pro_20250421_050000_0021.wav</li>
-<li>zoom_f8_pro_20250421_051000_0021.wav</li>
-<li>zoom_f8_pro_20250421_052000_0021.wav</li>
-<li>zoom_f8_pro_20250421_053000_0021.wav</li>
-<li>zoom_f8_pro_20250421_051000_0021.wav</li>
-<li>zoom_f8_pro_20250421_052000_0021.wav</li>
-<li>zoom_f8_pro_20250421_053000_0021.wav</li>
-<li>zoom_f8_pro_20250421_054000_0021.wav</li>
-<li>zoom_f8_pro_20250421_052000_0021.wav</li>
-<li>zoom_f8_pro_20250421_053000_0021.wav</li>
-<li>zoom_f8_pro_20250421_054000_0021.wav</li>
-<li>zoom_f8_pro_20250421_055000_0021.wav</li>
-<li>zoom_f8_pro_20250421_053000_0021.wav</li>
-<li>zoom_f8_pro_20250421_054000_0021.wav</li>
-<li>zoom_f8_pro_20250421_055000_0021.wav</li>
-<li>zoom_f8_pro_20250421_060000_0021.wav</li>
-<li>zoom_f8_pro_20250421_054000_0021.wav</li>
-<li>zoom_f8_pro_20250421_055000_0021.wav</li>
-<li>zoom_f8_pro_20250421_060000_0021.wav</li>
-<li>zoom_f8_pro_20250421_061000_0021.wav</li>
-</ol>
-</body></html>av</li>
 <li>zoom_f8_pro_20250421_031328_0021.wav</li>
 <li>zoom_f8_pro_20250421_032000_0021.wav</li>
 <li>zoom_f8_pro_20250421_030000_0021.wav</li>
