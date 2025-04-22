@@ -4,22 +4,22 @@
 <h4>Health Snapshot for clockpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2025-04-22 00:00:01</td><td>last: 2025-04-22 07:40:01</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>4.26</td></tr>
+<tr><td>timestamp</td><td>first: 2025-04-22 00:00:01</td><td>last: 2025-04-22 07:50:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>100.00</td><td>4.17</td></tr>
 <tr><td>mem_percent</td><td>6.60</td><td>6.90</td><td>6.72</td></tr>
-<tr><td>mem_used_mb</td><td>416.62</td><td>439.84</td><td>425.67</td></tr>
-<tr><td>mem_available_mb</td><td>7506.86</td><td>7530.08</td><td>7521.07</td></tr>
-<tr><td>temperature_c</td><td>30.10</td><td>32.90</td><td>31.30</td></tr>
+<tr><td>mem_used_mb</td><td>416.62</td><td>439.84</td><td>425.65</td></tr>
+<tr><td>mem_available_mb</td><td>7506.86</td><td>7530.08</td><td>7521.08</td></tr>
+<tr><td>temperature_c</td><td>30.10</td><td>32.90</td><td>31.28</td></tr>
 <tr><td>voltage_v</td><td>0.85</td><td>0.85</td><td>0.85</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.46</td><td>1.67</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.72</td><td>1.58</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>7.46</td><td>1.64</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>0.00</td><td>6.72</td><td>1.55</td></tr>
 <tr><td>disk_percent</td><td>24.90</td><td>24.90</td><td>24.90</td></tr>
 <tr><td>disk_free_gb</td><td>20.31</td><td>20.31</td><td>20.31</td></tr>
 <tr><td>cpu_freq_mhz</td><td>2400.00</td><td>2400.00</td><td>2400.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 47</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 47</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>PPS</td><td>PPS</td><td>47 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 48</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 48</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>PPS</td><td>PPS</td><td>48 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.00</td><td>0.04</td><td>0.01</td></tr>
@@ -27,11 +27,11 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-5.57e-07</td><td>7.48e-07</td><td>4.7e-08</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>3.3e-08</td><td>1.191e-06</td><td>2.4383e-07</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.045</td><td>0.00821277</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-5.57e-07</td><td>7.48e-07</td><td>4.32708e-08</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>3.3e-08</td><td>1.191e-06</td><td>2.47146e-07</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.045</td><td>0.0081875</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: PPS : 37, kPPS : 10</p>
+<p><b>Clock Source Usage</b>: PPS : 38, kPPS : 10</p>
 <p>No backup_recordings log found for <b>clockpi</b> on 2025-04-22.</p>
 <h2>Analytics Pi</h2>
 <h4>Health Snapshot for analyticspi</h4>
@@ -160,13 +160,17 @@
 <li>2025-04-22 07:33:01 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_131000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_131000_0020.wav'</li>
 <li>2025-04-22 07:36:16 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250421_011000_0021.wav, missing hash.</li>
 <li>2025-04-22 07:36:43 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250421_191000_0021.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250421_191000_0021.wav'</li>
+<li>2025-04-22 07:43:33 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250420_131000_0020.wav, missing hash.</li>
+<li>2025-04-22 07:44:02 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250421_013000_0021.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250421_013000_0021.wav'</li>
+<li>2025-04-22 07:46:20 [WARNING] Skipping sha256 compare for zoom_f8_pro_20250421_191000_0021.wav, missing hash.</li>
+<li>2025-04-22 07:46:20 [WARNING] compute_local_sha256 failed for /home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_075000_0020.wav: [Errno 2] No such file or directory: '/home/analyticspi/mnt/nas/audio_final_test/zoom_f8_pro_20250420_075000_0020.wav'</li>
 </ul>
 <h4>Successfully Synced Files (2 total)</h4><ol>
 <li>zoom_f8_pro_20250419_200000_0019.wav</li>
 <li>zoom_f8_pro_20250419_213000_0019.wav</li>
 </ol>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 47<br>Mount Fail count: 47</p>
+<p>Mount OK count: 48<br>Mount Fail count: 48</p>
 <ul>
 <li>2025-04-22 00:00:40 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-22 00:10:26 - ❌ NAS mount missing. Attempting to remount...</li>
@@ -215,6 +219,7 @@
 <li>2025-04-22 07:20:07 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-22 07:30:07 - ❌ NAS mount missing. Attempting to remount...</li>
 <li>2025-04-22 07:40:32 - ❌ NAS mount missing. Attempting to remount...</li>
+<li>2025-04-22 07:50:15 - ❌ NAS mount missing. Attempting to remount...</li>
 </ul>
 <h2>Recording Pi</h2>
 <h4>Health Snapshot for recordingpi</h4>
@@ -256,7 +261,7 @@
 <li>2025-04-22 00:57:02 [WARNING] rsync stdout:</li>
 <li>2025-04-22 00:57:02 [WARNING] rsync stderr:</li>
 </ul>
-<h4>Successfully Synced Files (89 total)</h4><ol>
+<h4>Successfully Synced Files (91 total)</h4><ol>
 <li>zoom_f8_pro_20250421_233000_0021.wav</li>
 <li>zoom_f8_pro_20250421_234000_0021.wav</li>
 <li>zoom_f8_pro_20250421_234000_0021.wav</li>
@@ -346,5 +351,7 @@
 <li>zoom_f8_pro_20250422_064000_0022.wav</li>
 <li>zoom_f8_pro_20250422_064000_0022.wav</li>
 <li>zoom_f8_pro_20250422_065000_0022.wav</li>
+<li>zoom_f8_pro_20250422_065000_0022.wav</li>
+<li>zoom_f8_pro_20250422_070000_0022.wav</li>
 </ol>
 </body></html>
