@@ -4,12 +4,12 @@
 <h4>Health Snapshot for clockpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2026-06-02 00:00:01</td><td>last: 2026-06-02 01:20:01</td><td>N/A</td></tr>
+<tr><td>timestamp</td><td>first: 2026-06-02 00:00:01</td><td>last: 2026-06-02 01:30:01</td><td>N/A</td></tr>
 <tr><td>cpu_percent</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>mem_percent</td><td>3.70</td><td>3.80</td><td>3.74</td></tr>
-<tr><td>mem_used_mb</td><td>199.89</td><td>209.19</td><td>204.65</td></tr>
-<tr><td>mem_available_mb</td><td>7757.14</td><td>7766.45</td><td>7761.69</td></tr>
-<tr><td>temperature_c</td><td>46.60</td><td>48.30</td><td>47.42</td></tr>
+<tr><td>mem_percent</td><td>3.70</td><td>3.80</td><td>3.75</td></tr>
+<tr><td>mem_used_mb</td><td>199.89</td><td>209.19</td><td>204.88</td></tr>
+<tr><td>mem_available_mb</td><td>7757.14</td><td>7766.45</td><td>7761.46</td></tr>
+<tr><td>temperature_c</td><td>46.60</td><td>48.80</td><td>47.56</td></tr>
 <tr><td>voltage_v</td><td>0.84</td><td>0.84</td><td>0.84</td></tr>
 <tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>0.09</td><td>0.02</td></tr>
 <tr><td>net_recv_kbps_eth0</td><td>0.31</td><td>4.41</td><td>1.63</td></tr>
@@ -17,9 +17,9 @@
 <tr><td>disk_free_gb</td><td>19.37</td><td>19.38</td><td>19.37</td></tr>
 <tr><td>cpu_freq_mhz</td><td>2400.00</td><td>2400.00</td><td>2400.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 9</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 9</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>PPS</td><td>PPS</td><td>9 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 10</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 10</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>PPS</td><td>PPS</td><td>10 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_freq_skew_ppm</td><td>0.00</td><td>0.01</td><td>0.00</td></tr>
@@ -27,88 +27,89 @@
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-2.1e-08</td><td>1.06e-07</td><td>2.65556e-08</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>5.9e-08</td><td>1.16e-07</td><td>1.01556e-07</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.009</td><td>0.00355556</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-2.7e-08</td><td>1.06e-07</td><td>2.12e-08</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>5.9e-08</td><td>1.16e-07</td><td>9.89e-08</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.001</td><td>0.009</td><td>0.0034</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: PPS : 9</p>
+<p><b>Clock Source Usage</b>: PPS : 10</p>
 <p>No synced_files.log found at /home/analyticspi/logs/pooled/clockpi/backup_recordings/synced_files/synced_files.log.</p>
 <p>No mount_watchdog log found for analytics-pi on 2026-06-02.</p>
 <h2>Analytics Pi</h2>
 <h4>Health Snapshot for analyticspi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2026-06-02 00:07:01</td><td>last: 2026-06-02 01:17:01</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>66.70</td><td>27.09</td></tr>
-<tr><td>mem_percent</td><td>6.30</td><td>9.20</td><td>8.20</td></tr>
-<tr><td>mem_used_mb</td><td>389.05</td><td>434.22</td><td>399.14</td></tr>
-<tr><td>mem_available_mb</td><td>7322.86</td><td>7559.47</td><td>7402.94</td></tr>
-<tr><td>temperature_c</td><td>40.00</td><td>42.20</td><td>40.71</td></tr>
+<tr><td>timestamp</td><td>first: 2026-06-02 00:07:01</td><td>last: 2026-06-02 01:27:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>66.70</td><td>24.08</td></tr>
+<tr><td>mem_percent</td><td>6.30</td><td>9.20</td><td>7.99</td></tr>
+<tr><td>mem_used_mb</td><td>389.05</td><td>434.22</td><td>398.70</td></tr>
+<tr><td>mem_available_mb</td><td>7322.86</td><td>7559.47</td><td>7420.15</td></tr>
+<tr><td>temperature_c</td><td>40.00</td><td>42.20</td><td>40.63</td></tr>
 <tr><td>voltage_v</td><td>0.72</td><td>0.85</td><td>0.79</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>3.60</td><td>1.73</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>0.57</td><td>3.08</td><td>1.99</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>0.00</td><td>3.60</td><td>1.90</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>0.57</td><td>3.47</td><td>2.16</td></tr>
 <tr><td>disk_percent</td><td>22.50</td><td>22.50</td><td>22.50</td></tr>
 <tr><td>disk_free_gb</td><td>42.66</td><td>42.66</td><td>42.66</td></tr>
 <tr><td>cpu_freq_mhz</td><td>2400.00</td><td>2400.00</td><td>2400.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 8</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 8</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>clockpi</td><td>clockpi</td><td>8 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 9</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 0</td><td>False: 9</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>clockpi</td><td>clockpi</td><td>9 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.15</td><td>0.25</td><td>0.21</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.15</td><td>0.25</td><td>0.22</td></tr>
 </table>
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-0.00010262</td><td>0.000349174</td><td>0.000167545</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>0.000330425</td><td>0.000382208</td><td>0.000345647</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.153</td><td>0.254</td><td>0.212625</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-0.00010262</td><td>0.000349174</td><td>0.000187726</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>0.000330425</td><td>0.000382208</td><td>0.00034417</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.153</td><td>0.254</td><td>0.215667</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: clockpi : 8</p>
-<h4>Successfully Synced Files (6 total)</h4><ol>
+<p><b>Clock Source Usage</b>: clockpi : 9</p>
+<h4>Successfully Synced Files (7 total)</h4><ol>
 <li>auklab_20260602T000000.wav</li>
 <li>auklab_20260602T001000.wav</li>
 <li>auklab_20260602T002000.wav</li>
 <li>auklab_20260602T003000.wav</li>
 <li>auklab_20260602T004000.wav</li>
 <li>auklab_20260602T005000.wav</li>
+<li>auklab_20260602T010000.wav</li>
 </ol>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 18<br>Mount Fail count: 0</p>
+<p>Mount OK count: 20<br>Mount Fail count: 0</p>
 <h2>Recording Pi</h2>
 <h4>Health Snapshot for recordingpi</h4>
 <table border='1' cellpadding='4' cellspacing='0'>
 <tr><th>Column</th><th>Min</th><th>Max</th><th>Average / Stats</th></tr>
-<tr><td>timestamp</td><td>first: 2026-06-02 00:05:01</td><td>last: 2026-06-02 01:25:01</td><td>N/A</td></tr>
-<tr><td>cpu_percent</td><td>0.00</td><td>50.00</td><td>5.56</td></tr>
-<tr><td>mem_percent</td><td>5.40</td><td>8.40</td><td>7.02</td></tr>
-<tr><td>mem_used_mb</td><td>228.69</td><td>281.84</td><td>248.28</td></tr>
-<tr><td>mem_available_mb</td><td>7389.39</td><td>7627.45</td><td>7497.51</td></tr>
-<tr><td>temperature_c</td><td>35.60</td><td>38.40</td><td>37.14</td></tr>
+<tr><td>timestamp</td><td>first: 2026-06-02 00:05:01</td><td>last: 2026-06-02 01:35:01</td><td>N/A</td></tr>
+<tr><td>cpu_percent</td><td>0.00</td><td>50.00</td><td>5.00</td></tr>
+<tr><td>mem_percent</td><td>5.40</td><td>8.40</td><td>6.89</td></tr>
+<tr><td>mem_used_mb</td><td>228.69</td><td>281.84</td><td>247.22</td></tr>
+<tr><td>mem_available_mb</td><td>7389.39</td><td>7627.45</td><td>7508.17</td></tr>
+<tr><td>temperature_c</td><td>35.60</td><td>38.40</td><td>37.05</td></tr>
 <tr><td>voltage_v</td><td>0.72</td><td>0.89</td><td>0.82</td></tr>
-<tr><td>net_sent_kbps_eth0</td><td>23203.46</td><td>95288.33</td><td>65868.53</td></tr>
-<tr><td>net_recv_kbps_eth0</td><td>155.85</td><td>659.37</td><td>453.66</td></tr>
+<tr><td>net_sent_kbps_eth0</td><td>23203.46</td><td>95288.33</td><td>66902.48</td></tr>
+<tr><td>net_recv_kbps_eth0</td><td>155.85</td><td>659.37</td><td>460.98</td></tr>
 <tr><td>disk_percent</td><td>1.50</td><td>1.50</td><td>1.50</td></tr>
 <tr><td>disk_free_gb</td><td>438.84</td><td>438.84</td><td>438.84</td></tr>
-<tr><td>cpu_freq_mhz</td><td>1900.00</td><td>2400.00</td><td>2344.44</td></tr>
+<tr><td>cpu_freq_mhz</td><td>1900.00</td><td>2400.00</td><td>2350.00</td></tr>
 <tr><td>throttled_flags</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>root_readonly</td><td>True: 0</td><td>False: 9</td><td>N/A</td></tr>
-<tr><td>zoom_hw2_ok</td><td>True: 9</td><td>False: 0</td><td>N/A</td></tr>
-<tr><td>chrony_src</td><td>clockpi</td><td>clockpi</td><td>9 rows</td></tr>
+<tr><td>root_readonly</td><td>True: 0</td><td>False: 10</td><td>N/A</td></tr>
+<tr><td>zoom_hw2_ok</td><td>True: 10</td><td>False: 0</td><td>N/A</td></tr>
+<tr><td>chrony_src</td><td>clockpi</td><td>clockpi</td><td>10 rows</td></tr>
 <tr><td>chrony_last_offset_s</td><td>-0.00</td><td>0.00</td><td>0.00</td></tr>
 <tr><td>chrony_rms_offset_s</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.34</td><td>1.16</td><td>0.61</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.34</td><td>1.16</td><td>0.65</td></tr>
 </table>
 <h5>Chrony Time‑Sync</h5>
 <table border='1' cellpadding='3' cellspacing='0'>
 <tr><th>Metric</th><th>Min</th><th>Max</th><th>Average</th></tr>
-<tr><td>chrony_last_offset_s</td><td>-1.2881e-05</td><td>5.3927e-05</td><td>1.29597e-05</td></tr>
-<tr><td>chrony_rms_offset_s</td><td>2.5576e-05</td><td>0.000134663</td><td>5.66278e-05</td></tr>
-<tr><td>chrony_freq_skew_ppm</td><td>0.345</td><td>1.159</td><td>0.610667</td></tr>
+<tr><td>chrony_last_offset_s</td><td>-2.2292e-05</td><td>5.3927e-05</td><td>9.4345e-06</td></tr>
+<tr><td>chrony_rms_offset_s</td><td>2.5576e-05</td><td>0.000134663</td><td>5.69338e-05</td></tr>
+<tr><td>chrony_freq_skew_ppm</td><td>0.345</td><td>1.159</td><td>0.6545</td></tr>
 </table>
-<p><b>Clock Source Usage</b>: clockpi : 9</p>
+<p><b>Clock Source Usage</b>: clockpi : 10</p>
 <p>No synced_files.log found at /home/analyticspi/logs/pooled/recordingpi/backup_recordings/synced_files/synced_files.log.</p>
 <h4>Mount Watchdog</h4>
-<p>Mount OK count: 8<br>Mount Fail count: 0</p>
+<p>Mount OK count: 9<br>Mount Fail count: 0</p>
 </body></html>
